@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="52" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="aiofiles" />
+          <option value="alembic" />
+          <option value="fastapi" />
+          <option value="greenlet" />
+          <option value="psycopg2-binary" />
+          <option value="python-dotenv" />
+          <option value="SQLAlchemy" />
+          <option value="uvicorn" />
+          <option value="pydantic-settings" />
+          <option value="python-multipart" />
+          <option value="starlette" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
